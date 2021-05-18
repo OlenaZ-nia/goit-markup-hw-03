@@ -76,9 +76,12 @@ img {
 }
 
 /*Шапка страницы*/
+.page-header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
 .container.main-nav {
   display: flex;
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .main-nav {
@@ -157,7 +160,7 @@ img {
 }
 
 .title-hero {
-  width: 696px;
+  max-width: 696px;
   margin: 0 auto 30px;
 
   font-weight: 900;
@@ -330,6 +333,8 @@ img {
   background-color: var(--primary-bcg-color);
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .title-name {
@@ -373,6 +378,11 @@ img {
   font-weight: 400;
   line-height: 1.71;
   color: var(--title-text-color);
+}
+
+.contacts.footer,
+.item-tel {
+  margin-top: 9px;
 }
 
 .location .contacts-link {
@@ -446,7 +456,9 @@ img {
 
 .project-item {
   padding: 20px 24px;
-  border: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 .title-project {
   margin-top: 0;
